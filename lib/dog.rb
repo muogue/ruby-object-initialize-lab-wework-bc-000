@@ -1,6 +1,6 @@
 class Dog
 
-  def initialize(thing, bleah)
+  def initialize(thing, bleah = "Mutt")
     @name = thing
     @breed = bleah
   end
